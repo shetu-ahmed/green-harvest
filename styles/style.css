@@ -108,7 +108,7 @@ body::selection{
   text-align: left;
 }
 .how-it-works{
-  padding: 6% 0%;
+  padding: 100px 0px;
   height: 759px;
   background: linear-gradient(to left,#576F35 50%, #7A3145  50%)
 }
@@ -295,4 +295,8 @@ body::selection{
 }
 .organic-product img{
   width: 282px;
+}
+#pota{
+  width: 300px;
+  height: 62px;
 }
