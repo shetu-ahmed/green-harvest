@@ -253,5 +253,46 @@ body::selection{
   font-size: 16px;
   line-height: 20px;
   color: #FBFBFB;
-  /* margin-top: 12px; */
+}
+.organic-grid{
+  width: 100%;
+  height: 886px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 50px;
+}
+.organic-product{
+  height: 379px;
+  width: 346px;
+  background-color: #FBFBFB;
+  border-radius: 40px;
+  padding: 32px;
+}
+.product-info{
+  height: 315px;
+  width: 282px;
+}
+.product-title{
+  height: 62px;
+  width: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.organic-product h4{
+  color: #7A3145;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 1.5%;
+}
+.organic-product p{
+  color: #000;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.6%;
+  text-transform: uppercase;
+}
+.organic-product img{
+  width: 282px;
 }
