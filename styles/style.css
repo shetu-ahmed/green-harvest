@@ -216,3 +216,42 @@ body::selection{
   color: #fff;
   border-radius: 12px;
 }
+.organic-vegetables{
+  height: 1229px;
+  background-color: #7A3145;
+  padding: 100px 0px;
+}
+.organic-container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.organic-container::selection{
+  background-color: #576F35;
+  color: #fff;
+}
+.organic-content{
+  height: 193px;
+  width: 626px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.organic-title{
+  width: 508px;
+}
+.organic-title h2{
+  font-size: 64px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #FBFBFB;
+  line-height: 64px;
+}
+.organic-title h2 span{
+  color: rgba(251, 251, 251, 0.3);
+}
+.organic-content p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #FBFBFB;
+  /* margin-top: 12px; */
+}
